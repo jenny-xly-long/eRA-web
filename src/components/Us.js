@@ -18,8 +18,8 @@ const Us = (props) => (
 	We are an iter
 	</div>
 		<CardStack
-			height={625}
-			width={1350}
+			height={650}
+			width={1250}
 			background="#f8f8f8"
 			hoverOffset={25}>
 
@@ -54,7 +54,7 @@ const ProfilePicture = ({ imgSrc, borderColor }) => (
 	<img src={imgSrc} 
 		style={{
 			width: '90px',
-			height: '90px',
+			height: '110px',
 			borderRadius: '100%',
 			border: `3px solid ${borderColor}`,
 		}}
