@@ -1,35 +1,36 @@
 import React, { Component } from 'react';
-import logo from '../images/whitelogo.png';
+import "../components/NavBar.css"
+import navlogo from "../images/NavLogo.png";
+import navlogo2 from "../images/NavLogoWithoutBranding.png";
+
 
 class NavBar extends Component {
-
-  render() {
-      // var header = ".NavBar";
-    
-      // window.scroll(); {    
-      //     var scroll = window.scrollTop();
-      //     if (scroll >= 50) {
-      //         header.addClass("scroll");
-      //     } else {
-      //         header.removeClass("scroll");
-      //     }
-      // };
-    
-    
-    return ( 
-      <div>
-        <ul className="NavBar">
-          {/* <li className="nav-item"><a href="#app" className="nav-linkk"><img src={logo} className="logo" alt=""/></a></li> */}
-          <li className="nav-item nav-last"><a href="#contact" className="nav-link">Contact</a></li>
-          <li className="nav-item"><a href="#team" className="nav-link">Team</a></li>
-          <li className="nav-item"><a href="#app" className="nav-linkk"><img src={logo} className="logo" alt=""/></a></li>
-          {/* <li className="nav-item"><a href="#research" className="nav-link">Research</a></li> */}
-          <li className="nav-item"><a href="#product" className="nav-link">Product</a></li>
-          <li className="nav-item"><a href="#about" className="nav-link">About </a></li>
-        </ul>
-      </div>
-    );
-  }
+    render(){ 
+        return (
+            <nav class="navbar navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                        
+                        </button>
+                        <a class="navbar-brand" href="#home"><img class="nav-img" src={navlogo2}/></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#about">About</a></li>
+                        <li><a href="#product">Product</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+        )
+    }
 }
 
 export default NavBar;
+
+

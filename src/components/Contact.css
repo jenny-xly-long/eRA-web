@@ -1,0 +1,14 @@
+.contact{
+    padding: 10%;
+    background-color:rgb(243, 172, 41);
+}
+
+textarea{
+    resize: vertical;
+    max-height: 350px;
+    min-height: 150px;
+}
+
+.text-center{
+    padding-bottom: 2%;
+}

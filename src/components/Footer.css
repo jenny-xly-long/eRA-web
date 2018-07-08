@@ -1,0 +1,21 @@
+.footer{
+    background-color: rgb(105, 103, 103);
+    text-align: center;
+    color: #ccc;
+    font-size: 125%;
+    padding: 1%;
+}
+
+.fa-facebook{
+    color: #3b3998;
+
+}
+
+.fa-envelope{
+    color: orange;
+    
+}
+
+.fa-twitter{
+    color: #00aced;
+}
