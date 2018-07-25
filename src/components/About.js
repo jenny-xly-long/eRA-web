@@ -5,22 +5,18 @@ class About extends Component{
     render(){
         return(
             <div className= "about" id='about'>
-                <h2>About <strong>eRA</strong></h2>
+                <h2>What is <strong>Era</strong></h2>
                 <div className="row">
-                    <div className="col-sm-12"><h3>Who we are</h3>
-                    <br/>
-                    <p>Omae wa mou shindeiru... NANI????!</p>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-sm-12"><h3>What we do</h3><br/>
-                    <p>Omae wa mou shindeiru... NANI????!</p>
-                    </div>
-                </div>
-                <div className="row">        
-                    <div className="col-sm-12"><h3>What makes us unique</h3><br/>
-                    <p>Omae wa mou shindeiru... NANI????!</p>
-                    </div>
+                  <br/>
+                  <p>
+                  Our passionate team is combining health and technology to
+                  provide more personalized and
+                  efficient solutions to both patients and clinicians.
+                  Era Rehab aims to revolutionize the physiotherapist
+                  rehabilitation process by leveraging sensors and artificial
+                  intelligence to help clinicians understand their patient’s
+                  condition and visualize their progress.
+                  </p>
                 </div>
             </div>
         )

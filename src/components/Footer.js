@@ -8,11 +8,9 @@ class Footer extends Component{
     render(){
         return(
             <div className="footer">
-                <a href="https://www.facebook.com/eRArehab/" rel="noopener noreferrer" target="_blank"><FaFacebook className="fa-facebook"/></a> &nbsp;
-                <a href="mailto:erehabadvancement@gmail.com?Subject=Hello!" rel="noopener noreferrer" target="_blank"><FaEnvelope className="fa-envelope"/></a> &nbsp;
-                <a href="https://twitter.com/erarehab" rel="noopener noreferrer" target="_blank"><FaTwitter className="fa-twitter"/></a> 
+                <a href="mailto:tristantoupin@gmail.com" rel="noopener noreferrer" target="_blank"><FaEnvelope className="fa-envelope"/></a> &nbsp;
                 <br/>
-                <p> © 2018 eRA All Rights Reserved.</p>
+                <p> © 2018 Era Rehab All Rights Reserved.</p>
             </div>
         )
     }
