@@ -10,7 +10,7 @@ class Footer extends Component{
             <div className="footer">
                 <a href="mailto:tristantoupin@gmail.com" rel="noopener noreferrer" target="_blank"><FaEnvelope className="fa-envelope"/></a> &nbsp;
                 <br/>
-                <p> © 2018 eRA All Rights Reserved.</p>
+                <p> © 2018 Era Rehab All Rights Reserved.</p>
             </div>
         )
     }
