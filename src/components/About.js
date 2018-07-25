@@ -17,7 +17,7 @@ class About extends Component{
                     <p>Omae wa mou shindeiru... NANI????!</p>
                     </div>
                 </div>
-                <div className="row">        
+                <div className="row">
                     <div className="col-sm-12"><h3>What makes us unique</h3><br/>
                     <p>Omae wa mou shindeiru... NANI????!</p>
                     </div>
