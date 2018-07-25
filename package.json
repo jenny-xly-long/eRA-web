@@ -1,6 +1,6 @@
 {
   "name": "testapp",
-  "homepage": "https://tristantoupin.github.io/npm run deploy",
+  "homepage": "https://tristantoupin.github.io/era_web_release",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
